@@ -1,0 +1,17 @@
+BASE DE DATOS:
+-- Crear la base de datos librohub
+CREATE DATABASE librohub;
+
+-- Usar la base de datos librohub
+USE librohub;
+
+-- Crear la tabla libros
+CREATE TABLE libros (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    titulo VARCHAR(255) NOT NULL,
+    autor VARCHAR(255) NOT NULL,
+    isbn VARCHAR(50),
+    genero VARCHAR(100),
+    precio DECIMAL(10, 2) NOT NULL,
+    descripcion TEXT
+);

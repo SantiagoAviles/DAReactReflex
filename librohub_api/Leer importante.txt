@@ -1,0 +1,1 @@
+colocar estos archivos en la ruta de htdocs apache y con ello verificar la ruta de libroService.js este "const API_URL = 'http://localhost/librohub_api/libros.php';"
